@@ -49,5 +49,5 @@ class VPG:
         self.all_rewards += rewards
         return rewards[0]
 
-vpg = VPG("CartPole-v0", [50])
-vpg.train(100000, 10)
+vpg = VPG("CartPole-v0", [10])
+vpg.train(100000, 5)
